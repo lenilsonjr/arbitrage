@@ -13,27 +13,27 @@ class App extends Component {
       places: [
         {
           name: 'San Francisco, US 🇺🇸',
-          average_rate_usd: 104
+          average_rate_usd: 105
         },
         {
           name: 'New York, US 🇺🇸',
-          average_rate_usd: 95
+          average_rate_usd: 90
         },
         {
           name: 'São Paulo, BR 🇧🇷',
-          average_rate_usd: 20
+          average_rate_usd: 17
         },
         {
           name: 'London, EN 🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-          average_rate_usd: 80
+          average_rate_usd: 70
         },
         {
           name: 'Paris, FR 🇫🇷',
-          average_rate_usd: 60
+          average_rate_usd: 35
         },
         {
           name: 'Bangalore, IN 🇮🇳',
-          average_rate_usd: 10
+          average_rate_usd: 18
         },
         {
           name: 'Hong Kong, HK 🇭🇰',
@@ -60,7 +60,7 @@ class App extends Component {
           <div className="info-header">
             <div className="rate-wrapper">
               <h3>💰 What's your hourly rate?</h3>
-              <input type="number" placeholder="30" onChange={(e) => this.setState({rate: e.target.value})} />
+              <input type="number" placeholder="30" min="1" onChange={(e) => this.setState({rate: e.target.value})} />
               <span>
                 <select disabled defaultValue='USD'>
                   <option value='USD'>USD</option>
