@@ -54,6 +54,6 @@ body {
 }
 
 .info-text a {
-  text-weight: bold;
+  font-weight: bold;
   color: white;
 }
