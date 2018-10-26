@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    descriptive_statistics (2.4.0)
+    savanna-outliers (0.0.1)
+    statistics2 (0.54)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  descriptive_statistics (~> 2.4.0)
+  savanna-outliers
+  statistics2
+
+BUNDLED WITH
+   1.16.1

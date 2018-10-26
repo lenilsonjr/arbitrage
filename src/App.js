@@ -12,40 +12,52 @@ class App extends Component {
       rate_currency: 'USD',
       places: [
         {
-          name: 'San Francisco, US 🇺🇸',
+          name: 'Silicon Valley 🇺🇸',
           average_rate_usd: 105
         },
         {
-          name: 'New York, US 🇺🇸',
-          average_rate_usd: 90
+          name: 'United States 🇺🇸',
+          average_rate_usd: 47
         },
         {
-          name: 'São Paulo, BR 🇧🇷',
-          average_rate_usd: 17
+          name: 'Australia 🇦🇺',
+          average_rate_usd: 39
         },
         {
-          name: 'London, EN 🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-          average_rate_usd: 70
+          name: 'United Kingdom 🇬🇧',
+          average_rate_usd: 32
         },
         {
-          name: 'Paris, FR 🇫🇷',
-          average_rate_usd: 35
+          name: 'Germany 🇩🇪',
+          average_rate_usd: 29
         },
         {
-          name: 'Bangalore, IN 🇮🇳',
-          average_rate_usd: 18
+          name: 'France 🇫🇷󠁧󠁢󠁥󠁮󠁧󠁿',
+          average_rate_usd: 24
         },
         {
-          name: 'Hong Kong, HK 🇭🇰',
-          average_rate_usd: 80
+          name: 'South Korea 🇰🇷',
+          average_rate_usd: 22
         },
         {
-          name: 'Nairobi, KE 🇰🇪',
-          average_rate_usd: 5
+          name: 'South Africa 🇿🇦',
+          average_rate_usd: 21
         },
         {
-          name: 'Johannesburg, SA 🇿🇦',
+          name: 'China 🇨🇳',
           average_rate_usd: 15
+        },
+        {
+          name: 'Brazil 🇧🇷',
+          average_rate_usd: 10
+        },
+        {
+          name: 'Kenya 🇰🇪',
+          average_rate_usd: 8
+        },
+        {
+          name: 'India 🇮🇳',
+          average_rate_usd: 6
         },
       ]
     }
