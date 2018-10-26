@@ -59,7 +59,7 @@ class App extends Component {
 
           <div className="info-header">
             <div className="rate-wrapper">
-              <h3>What's your hourly rate? 💰</h3>
+              <h3>💰 What's your hourly rate?</h3>
               <input type="number" placeholder="30" onChange={(e) => this.setState({rate: e.target.value})} />
               <span>
                 <select disabled defaultValue='USD'>
@@ -72,9 +72,9 @@ class App extends Component {
               <h3>💸 you could be making...</h3>
             </div>
 
-            <div className="header-info">
-              <h4>Arbitrage is the key</h4>
-              <p>For those in tech working remote, the calc is simple: <b>Make money where prices are high, spend it where prices are low.</b></p>
+            <div className="info-text">
+              <h4>📊 Arbitrage is the key</h4>
+              <p>For those in tech working remotely, the calc is simple: <a href="https://lenilson.me" target="_blank">Make money where prices are high, spend it where prices are low.</a></p>
             </div>
           </div>
 

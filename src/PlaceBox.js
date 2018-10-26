@@ -10,8 +10,10 @@ class PlaceBox extends Component {
     let difference = this.props.place.average_rate_usd - this.props.userRate;
     let borderColor = (difference > 0 ) ? 'green' : 'red';
         borderColor = ( this.props.userRate == 0 ) ? 'blue' : borderColor;
+    let backgroundColor = (difference > 0 ) ? 'rgba(39, 174, 96, 0.2)' : 'rgba(192, 57, 43, 0.2)';
+        backgroundColor = ( this.props.userRate == 0 ) ? 'rgba(255,255,255,0.2)' : backgroundColor;
     return (
-      <div className="place" style={{borderColor}}>
+      <div className="place" style={{borderColor, backgroundColor}}>
         <b>${this.props.place.average_rate_usd}</b> in
         <br />
         { this.props.place.name }
